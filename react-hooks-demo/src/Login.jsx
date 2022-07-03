@@ -6,7 +6,7 @@ const User = {
 }
 
 
-export default function Register() {
+export default function Login() {
     const [email, setEmail] = useState('');
     const [pw, setPw] = useState('');
 
@@ -36,7 +36,7 @@ export default function Register() {
       setPw(e.target.value);
       const regex =
         /^(?=.*[a-zA-z])(?=.*[0-9])(?=.*[$`~!@$!%*#^?&\\(\\)\-_=+])(?!.*[^a-zA-z0-9$`~!@$!%*#^?&\\(\\)\-_=+]).{8,20}$/;
-      if(regex.test(pw)) {
+        if(regex.test(pw)) {
         setPwValid(true);
       } else {
         setPwValid(false);
