@@ -26,7 +26,7 @@ export default function Login() {
       setEmail(e.target.value);
       const regex =
         /^(([^<>()\[\].,;:\s@"]+(\.[^<>()\[\].,;:\s@"]+)*)|(".+"))@(([^<>()[\].,;:\s@"]+\.)+[^<>()[\].,;:\s@"]{2,})$/i;
-      if (regex.test(email)) {
+      if (regex.test(e.target.value)) {
         setEmailValid(true);
       } else {
         setEmailValid(false);
@@ -36,7 +36,7 @@ export default function Login() {
       setPw(e.target.value);
       const regex =
         /^(?=.*[a-zA-z])(?=.*[0-9])(?=.*[$`~!@$!%*#^?&\\(\\)\-_=+])(?!.*[^a-zA-z0-9$`~!@$!%*#^?&\\(\\)\-_=+]).{8,20}$/;
-        if(regex.test(pw)) {
+      if (regex.test(e.target.value)) {
         setPwValid(true);
       } else {
         setPwValid(false);
