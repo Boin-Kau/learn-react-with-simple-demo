@@ -8,7 +8,7 @@ export default function NotFound() {
     <div className="page-container">
       <div
         style={{
-          marginTop: "96px",
+          marginTop: "64px",
           fontSize: "48px",
           fontWeight: "700",
           marginBottom: "32px",
