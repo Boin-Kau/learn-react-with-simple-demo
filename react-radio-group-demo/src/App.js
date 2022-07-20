@@ -8,7 +8,7 @@ function App() {
     <RootWrap>
       {
         dummy.map(item => (
-          <Question title={item.title} questionList={item.questionList} />
+          <Question key={item.idx} title={item.title} questionList={item.questionList} />
         ))
       }
     </RootWrap>
