@@ -1,0 +1,15 @@
+body {
+    background-color: #22254b;
+}
+
+.app-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.app-pagination-wrap {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
