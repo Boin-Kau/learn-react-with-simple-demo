@@ -6,6 +6,8 @@ export default function MovieDetail() {
   const { title } = useParams();
   const { state } = useLocation();
 
+  
+
 
   return (
     <div className="page-container">

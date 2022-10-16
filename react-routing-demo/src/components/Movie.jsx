@@ -8,7 +8,7 @@ export default function Movie(props) {
 
     const onClickMovieItem = () => {
         navigate(`/movie/${props.title}`, {
-            state: props
+            state: props,
         });
     };
 
