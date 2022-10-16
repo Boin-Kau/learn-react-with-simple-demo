@@ -16,6 +16,6 @@ npm i @tanstack/react-query
 npm i antd
 ```
   
-Ant Design에서는 [Pagnition Component](https://ant.design/components/pagination/)를 사용했습니다. 
+Ant Design에서는 [Pagination Component](https://ant.design/components/pagination/)를 사용했습니다. 
 
 
