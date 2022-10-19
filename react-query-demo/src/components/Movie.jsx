@@ -1,3 +1,8 @@
+/**
+ * @author Charles
+ * @file 영화 리스트 내 아이템 컴포넌트 Movie 작성 file
+ */
+
 import React from "react";
 import styles from "./Movie.module.css";
 
